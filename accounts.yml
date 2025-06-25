@@ -5,7 +5,7 @@ accounts:
         message: Hello from accounts Local service
         contact:
                 name: Reverend Father Papa John - Local Father
-                email: rfpapa@gmail.com
+                email: {cipher}0f21e257c48b865702d92a15d11d8851763b011995480a32cb14f421dc3118c33081ae656d1bb315ef6a3766144a7f3a
         onCallSupport:
                 - (555) 555-1234
                 - (555) 523-1345
