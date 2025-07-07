@@ -1,0 +1,13 @@
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost # because I'm running on localhost
+    client:
+      fetchRegistry: false # eureka won't call other services, so it won't ask for their registry details
+      registerWithEureka: false # don't register with yourself
+      serviceUrl:
+        # "eureka.instance.hostname" and "server.port" are defined above
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      
